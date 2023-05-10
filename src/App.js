@@ -77,7 +77,6 @@ const App = () => {
       setAnswer( response.data.choices[0].message.content.trim() );
  
     } catch ( error ) {
-      // エラーハンドリング
       console.error( error );
  
     } finally {
